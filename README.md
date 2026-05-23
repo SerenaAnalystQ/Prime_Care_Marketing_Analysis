@@ -140,7 +140,7 @@ For improved analysis and future steps, consider the following:
   - Explore for additional insights and recommendations by campaign category and type
 
 # Dashboard
-The dashboard can be found in Tableau Public. This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 
+The dashboard can be found in [Tableau Public](https://public.tableau.com/app/profile/serena.z4354/viz/PrimeCareMarketingAnalysisDashboard/CampaignCategoryDashboard). This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 
 
 
 # Presentation Sample

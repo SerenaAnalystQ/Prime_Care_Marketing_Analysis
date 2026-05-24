@@ -7,10 +7,10 @@
   <img src="pic/Logo.png" alt="Company Logo" width="400">
 </p>
 
-Founded in **2016**, Horizon Health is a medical insurance company serving **thousands of customers throughout the United States**. In **2019**, they launched a new set of marketing campaign categories spanning topics like wellness tips, the affordability of their plans, and preventative care. Their customers can sign up for 4 different plans - bronze, silver, gold, and platinum - each with different premiums and claim coverage rates. Now that they've hired a **new data team** and are strategizing their marketing budget for the year, the company would like to build more understanding of the **effectiveness** of these campaign categories and how they relate to signups and subsequent patient claims.
+Founded in 2016, Prime Care is a medical insurance company serving **thousands of customers throughout the United States**. In **2019**, they launched a new set of marketing campaign categories spanning topics like wellness tips, the affordability of their plans, and preventative care. Their customers can sign up for 4 different plans - bronze, silver, gold, and platinum - each with different premiums and claim coverage rates. Now that they've hired a **new data team** and are strategizing their marketing budget for the year, the company would like to build more understanding of the **effectiveness** of these campaign categories and how they relate to signups and subsequent patient claims.
 
 ## Project Goal
-The goal of this project is to **investigate the performance of marketing campaigns at Horizon Health** and **surface recommendations for optimal budget allocation** for next year's campaigns. In addition, it involves **building visualizations** that enable the marketing team to access insights and track performance through regular reporting. 
+The goal of this project is to **investigate the performance of marketing campaigns** and **surface recommendations for optimal budget allocation** for next year's campaigns. In addition, it involves **building visualizations** that enable the marketing team to access insights and track performance through regular reporting. 
 
 The marketing budget is allocated to drive two primary objectives: 
 1. **Raise awareness of Horizon Health's brand across the country**
@@ -79,7 +79,7 @@ To evaluate campaign performance, we focused on the following key metrics:
    > Average: $2.21, ranging from $0.60 to $124 per campaign category.
 
 **Summary Insight:**
-While Horizon Health benefits from a **high CTR, low CPC, and low Cost per Signup** compared to industry benchmarks, its **Signup Rate** remains below average.
+While Prime Care benefits from a **high CTR, low CPC, and low Cost per Signup** compared to industry benchmarks, its **Signup Rate** remains below average.
 
 ## Marketing Insights: 
 - **Product Promotion Underperformance:** Within the two categories with the highest CTR, **Product promotion campaigns underperformed relative to category peers, with CTRs of 0% and 7%.**.

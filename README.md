@@ -7,45 +7,53 @@
   <img src="pic/Logo.png" alt="Company Logo" width="400">
 </p>
 
-Founded in 2016, Prime Care is a medical insurance company serving **thousands of customers throughout the United States**. In **2019**, they launched a new set of marketing campaign categories spanning topics like wellness tips, the affordability of their plans, and preventative care. Their customers can sign up for 4 different plans - bronze, silver, gold, and platinum - each with different premiums and claim coverage rates. Now that they've hired a **new data team** and are strategizing their marketing budget for the year, the company would like to build more understanding of the **effectiveness** of these campaign categories and how they relate to signups and subsequent patient claims.
 
-## Project Goal
-The goal of this project is to **investigate the performance of marketing campaigns** and **surface recommendations for optimal budget allocation** for next year's campaigns. In addition, it involves **building visualizations** that enable the marketing team to access insights and track performance through regular reporting. 
+Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the United States. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use data-driven insights based on past performance to determine next year's marketing budget allocation.
 
-The marketing budget is allocated to drive two primary objectives: 
-1. **Raise awareness of Horizon Health's brand across the country**
-2. **Increase customer signups**
+The data team's focus is on analysing marketing campaign performance to improve the Marketing Team's resource allocation and on building a dynamic dashboard to allow them to self-serve insights, aimed at meeting the following goals:
+
+- Increase brand awareness
+- Generate new signups.
+
+
+**Business Question: How should the Marketing Team reallocate next year’s budget to maximize awareness, signups, and cost efficiency across 12 campaigns?**
+
+For each campaign, we evaluate the following **North Star Metrics**:
+
+- **Click-Through-Rate (CTR)** - % of people who click on a link after seeing a campaign.
+- **Signup Rate** - % of people who sign up to a plan after clicking on a link.
+- **Cost per Signup (CPS)** - amount in US$ it takes to convert a customer.
+
 
 <details>
 <summary>Data Structure & ERD</summary>
 
 <br>
 
-Horizon Health's database structure consists of three tables - **customers, campaigns, and claims** - containing information on customer demographics, campaign performance, and claim records.
+Database structure consists of three tables - **customers, campaigns, and claims** - containing information on customer demographics, campaign performance, and claim records.
 <p align="center">
-<img width="868" height="602.3" alt="Horizon Health ERD" src="https://github.com/user-attachments/assets/2cf67e22-52fb-4be3-b180-37b71dc23204" />
+<img width="868" height="602.3" alt="ERD" src="https://github.com/user-attachments/assets/2cf67e22-52fb-4be3-b180-37b71dc23204" />
 </p>
 </details>
 
 
-
-<details>
-<summary>Table of Contents</summary>
-
-<br>
-
-- [Deep-Dive Insights](#deep-dive-insights)
-  - [North Star Metrics](#north-start-metrics)
-  - [Marketing Insights](#marketing-insights)
-  - [Signup Insights](#signup-insights)
-  - [Claim Insights](#claim-insights)
-- [Recommendations](#recommendations)
-- [Caveats and Next Steps](#caveats-and-next-steps)
-- [Dashboard](#dashboards)
-- [Presentation Sample](#presentation-sample)
+# Executive Summary
 
 
-</details>
+Prime Care's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
+
+### Insights & Recommendations
+
+- **4 campaigns generated 83% of all signups**: Health For All, Compare Health Coverage, #HealthyLiving, and #CoverageMatters.
+- **CTR & Signup Rate split campaigns into 4 performance categories**, based on contribution to increasing brand awareness & generating signups.
+- **One-fifth of marketing budget ($11k) was spent on 2 underperforming campaigns** - #InsureYourHealth and Golden Years Security, indicating a core inefficiency of resource allocation.
+- **Campaign signup surges linked to campaign types** - Customer Testimonial type campaigns are linked to a surge in monthly signups from Compare Health Coverage campaign.
+
+**We recommend Prime Care's Marketing Team to reallocate resources** and adjust its marketing strategy based on campaign performance. This would **boost CTR by 17%, Signup Rate by 13%**, and lead to stronger efficiency gains.
+
+<div style="page-break-after: always"></div>
+
+
 
 
 # Deep-Dive Insights

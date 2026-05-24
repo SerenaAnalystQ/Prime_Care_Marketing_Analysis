@@ -57,6 +57,12 @@ Prime Care's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in lin
 
 # Deep-Dive Insights
 
+## Insight 1: High vs Low Performing Campaigns
+
+<p align="center">
+<img src="pic/Campaign.png" alt="Campaign" width="750" >
+</p>
+</details>
 
 
 We can **separate campaigns into 4 performance categories** based on CTR & Signup Rates:
@@ -68,9 +74,30 @@ We can **separate campaigns into 4 performance categories** based on CTR & Signu
 $11k allocated to poor performers indicate ineffective results despite high budget allocation. Only $3k more were allocated to high performers despite excellent results. For the Marketing Team, this suggests that **marketing budget is not allocated based on performance.**
 
 
+## Insight 2: Customer Testimonial Surge Drives Compare Health Coverage Signups
 
+<p align="center">
+<img src="pic/Compare.png" alt="Compare" width="750" >
+</p>
+</details>
 
+**Most campaigns showed a similar trend** in terms of new monthly signups:
+- Sharp rise with a **peak in April 2020**, driven by the onset of the Covid-19 pandemic
+- **Steady decline since then until 2023**, falling to pre-pandemic levels.
 
+**Exceptionally, the Compare Health Coverage campaign peaked in early-2021 and fell sharply in mid-2022 driven by Customer Testimonial type campaigns**. Overall, Customer Testimonials had a **high CTR (31%) and a high Signup Rate (3.5%)**. Customers also converted at a **low CPS of $1.8, indicating a significant return on investment** despite high spend on Compare Health Coverage ($10k).
+
+Other campaign categories were linked to specific campaign types (eg., #CoverageMatters category with Product Promotion type campaigns). For the Marketing Team, this suggests that further investigation may surface insights on more category-type pairs.
+
+## Insight 3: Segmentation
+
+- **2 states make up over half of customers**: **New Jersey** accounts for 50% of customers - 8.2k out of 16.4k total. A further 1.3k were from neighbouring **New York**, indicating that 58% of customers come from these states. For the Marketing Team, this implies a narrow geographical focus of marketing campaigns.
+
+## Insight 4: Plan Performance
+
+- **Underperformance of platinum & bronze plans.** Only 12 customers signed up to the platinum plan, at a high CPS of $491. Similarly, the bronze plan also generated few signups (591) at a high CPS of $24. For the Product Team, this suggests poor performance of portfolio components.
+
+<div style="page-break-after: always"></div>
 
 
 # Recommendations
@@ -93,6 +120,4 @@ To improve analysis, we recommend the following:
 # Appendix
 
 
-The dashboard can be found in [Tableau Public](https://public.tableau.com/app/profile/serena.z4354/viz/PrimeCareMarketingAnalysisDashboard/CampaignCategoryDashboard). This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 
-
-The presentation created for the marketing team, which walks through the insights and recommendations above, can be found [here].
+The dashboard can be found in [Tableau Public](https://public.tableau.com/app/profile/serena.z4354/viz/PrimeCareMarketingPerformanceDashoboard/Dashboard). This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 

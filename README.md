@@ -4,15 +4,15 @@
 
 
 <p align="center">
-  <img src="pic/Logo.png" alt="Company Logo" width="400">
+  <img src="pic/Logo.png" alt="Company Logo" width="300">
 </p>
 
 
-Founded in 2016, Safety Net is a health insurance provider serving thousands of customers in the United States. It launched new marketing campaigns in 2019 with customers able to sign up to one of 4 insurance plans. It recently hired a new data team and aims to use data-driven insights based on past performance to determine next year's marketing budget allocation.
+Founded in 2016, **Prime Care** is a health insurance provider serving thousands of customers in the United States. It launched new marketing campaigns in 2019 with customers able to sign up to one of **4 insurance plans**. It recently hired a new data team and aims to use data-driven insights based on past performance to determine next year's marketing budget allocation.
 
 The data team's focus is on analysing marketing campaign performance to improve the Marketing Team's resource allocation and on building a dynamic dashboard to allow them to self-serve insights, aimed at meeting the following goals:
 
-- Increase brand awareness
+- Increase brand awareness.
 - Generate new signups.
 
 
@@ -39,7 +39,7 @@ Database structure consists of three tables - **customers, campaigns, and claims
 
 # Executive Summary
 
-<img src="pic/Overview.png" alt="Overview" >
+<img src="pic/Overview.png" alt="Overview" width="1000">
 
 Prime Care's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
 

@@ -119,5 +119,9 @@ To improve analysis, we recommend the following:
 
 # Appendix
 
+Tools used: Excel, Tableau, Python, SQL, GitHub.
 
 The dashboard can be found in [Tableau Public](https://public.tableau.com/app/profile/serena.z4354/viz/PrimeCareMarketingPerformanceDashoboard/Dashboard). This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 
+
+Dashboard Screenshot:
+<img src="pic/Dashboard.png" alt="Dashboard" >

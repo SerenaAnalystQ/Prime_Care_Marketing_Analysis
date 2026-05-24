@@ -32,13 +32,14 @@ For each campaign, we evaluate the following **North Star Metrics**:
 
 Database structure consists of three tables - **customers, campaigns, and claims** - containing information on customer demographics, campaign performance, and claim records.
 <p align="center">
-<img width="868" height="602.3" alt="ERD" src="https://github.com/user-attachments/assets/2cf67e22-52fb-4be3-b180-37b71dc23204" />
+  <img src="pic/ERD.png" alt="ERD" width="700">
 </p>
 </details>
 
 
 # Executive Summary
 
+<img src="pic/Overview.png" alt="Overview" >
 
 Prime Care's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in line with industry benchmarks.
 
@@ -54,102 +55,44 @@ Prime Care's **CTR was 9.39%, Signup Rate 1.92%, and CPS $3.68**, falling in lin
 <div style="page-break-after: always"></div>
 
 
-
-
 # Deep-Dive Insights
 
-## North Star Metrics
-
-To evaluate campaign performance, we focused on the following key metrics:
-
-- **Impressions** – Number of times a marketing campaign was viewed.
- 
-   > Average: 702K per campaign (8.4M total), ranging from 120K to 1.4M.
-
-- **Clicks** – Number of clicks on a campaign’s link.
- 
-   > Average: 72K per campaign (797K total), ranging from 6K to 127K.
-
-- **Click-Through Rate (CTR)** – Percentage of viewers who clicked on a campaign's link out of the total number of people who viewed it.
-
-   > Average: 9.5% across 8.4M impressions.
-
-- **Cost per Click (CPC)** – Average dollars spent per click.
- 
-   > Average: $0.04, ranging from $0.02 to $0.48.
-
-- **Signup Rate** – Percentage of people who signed up for a Horizon Health plan out of the total number of people who viewed the campaign.
-
-   > Average: 0.19% across 16.3K total signups.
-
-- **Cost per Signup** – Average dollars spent per signup.
-
-   > Average: $2.21, ranging from $0.60 to $124 per campaign category.
-
-**Summary Insight:**
-While Prime Care benefits from a **high CTR, low CPC, and low Cost per Signup** compared to industry benchmarks, its **Signup Rate** remains below average.
-
-## Marketing Insights: 
-- **Product Promotion Underperformance:** Within the two categories with the highest CTR, **Product promotion campaigns underperformed relative to category peers, with CTRs of 0% and 7%.**.
-
-- **Golden Years Security Costs:** Golden Years Security recorded the **highest cost per click (CPC) at $0.48—over 12× the average CPC of $0.04**—while generating just 6,000 clicks, the fewest among all campaign categories.
-
-- **High CPC Drivers:** Among the three categories with the highest CPCs, **Offer Announcements and COVID Awareness campaigns** contributed most to the poor cost performance.
-
-- **Top CPC Efficiency:** Summer Wellness Tips campaigns achieved the **lowest CPC at $0.02**, delivering 44K clicks and 290K impressions. **Policy information campaigns** were the main driver of this efficiency.
-
-- **Potential Delivery Issues:** The Family Coverage Plan campaign recorded **1.1M impressions, but zero clicks**, suggesting possible data errors or campaign delivery failures—**warranting further investigation**.
 
 
-## Signup Insights:
-- **Top Performer – Health for All**: Achieved the **highest signup rate at 2.9%—over 15× the average of 0.19%** with the lowest cost per signup ($0.57) and the second-highest total signups (3.5K). Performance was driven by the Health Awareness campaign type, which led all campaign types with a 3.72% signup rate, $0.36 cost per signup, and 3.3K signups.
+We can **separate campaigns into 4 performance categories** based on CTR & Signup Rates:
+1. **High CTR & High Signup Rate to increase awareness & generate signups** - **Health For All was the outright best-performing campaign** at CTR 25% & Signup Rate 8.2%. Compare Health Coverage followed with CTR 14% & Signup Rate 3%. Combined, these campaigns cost $14k.
+2. **Low CTR & High Signup Rate to generate signups** - #CoverageMatters (2.8%), #HealthyLiving (2.8%), and Tailored Health Plans (1.2%) generated signups despite low CTR (10%, 10%, 7% respectively). Combined, these campaigns cost $14k.
+3. **Low Signup Rate & High CTR to increase awareness** - Benefit Updates (22%), Summer Wellness Tips (18%), Affordable Plans (13%), and Preventive Care News (12%) increased awareness despite low Signup Rate (ranging from 0.1% to 0.5%). Combined, these campaigns cost $17k.
+4. **Low CTR & Low Signup Rate to neither increase awareness nor generate signups** - **Golden Years Security was the outright worst-performing campaign** at CTR 1% & Signup Rate 0.4%. #InsureYourHealth was next with CTR 8% & Signup Rate 0.4%. Combined, these campaigns cost $11k.
 
-- **Lowest Performer – Golden Years Security**: Recorded the **lowest signup rate (0.01%)** due to heavy reliance on Offer Announcement campaigns. It also had the highest cost per signup ($124—over 50× the $2.20 average) and the lowest signup volume (23).
+$11k allocated to poor performers indicate ineffective results despite high budget allocation. Only $3k more were allocated to high performers despite excellent results. For the Marketing Team, this suggests that **marketing budget is not allocated based on performance.**
 
-- **High-Cost Categories**: The two categories with the highest costs per signup were dominated by **information-based campaign types (Offers and Policy Info)**, which proved less efficient.
 
-- **COVID Awareness Inefficiency**: COVID Awareness campaigns for Compare Health Coverage and #CoverageMatters each **exceeded $1.2K per signup**, despite achieving CTRs of 5.3% and 14.6%—close to the average of 9.5%. This indicates low conversion efficiency without significant gains in awareness.
 
-## Claim Insights: 
 
-- **High-Claim Cost – Compare Health Coverage**: Recorded the **highest total claims at $3.9M**, with an average claim amount of **$410—53% higher than the overall average of $267**. Claims surged from $46K in 2019 to $1.7M in 2022 (36× growth), peaking in July 2022 before a sharp decline. The high-claim cost was driven by **Customer Testimonial campaigns**, which generated $2.9M total claims and the highest per-claim average ($499).
 
-- **High-Claim Efficiency – Tailored Health Coverage**: Had the **lowest average claim amount at $209**, ranging from $181 in 2020 to $223 in 2022. Within this category, **Offer Announcement campaigns** had the lowest per-claim average at $195.
-
-- **Negative Growth – Benefit Updates**: The only category with **negative YoY growth in total claim amount (-4.3%)** versus the overall average growth of 62%. Decline was primarily driven by Product Promotion campaigns, which averaged -14.5% YoY growth in claims.
 
 
 # Recommendations
-Recommendations focus on two strategies: removing ineffective campaigns and reallocating budget towards categories with better performance across north star metrics.
 
-- **Boost Awareness:** Reallocate budget from **Compare Health Coverage** (highest spend by category) to **Policy Information within Summer Wellness Tips Campaign**, which achieved the lowest CPC and drove 44K clicks and 290K impressions for only $125 of campaign spend.
+Our findings would enable the Marketing & Product Teams to reallocate resources and improve acquisition efficiency. We would recommend the marketing & product teams to consider the following:
 
-- **Health for All:** Shift budget from **Golden Years Security** (highest Cost per Signup at $124 and highest CPC at $0.48) to **Health For All**, which outperformed across **CTR, Signups, Signup Rate, and Cost per Signup**, yet received only 7% of campaign category spend from 2019-2023.
+- **Reallocate budget from underperformers**: Reallocate $11k allocated to poorly performing campaigns (Golden Years Security & #InsureYourHealth) to top performers (Health For All & Compare Health Coverage). This would **boost CTR by 17% and Signup Rate by 13%.**
+- **Expand Customer Testimonials to high-performing campaigns**: thanks to attractive performance for Compare Health Coverage, apply Customer Testimonials to high-performing Health For All, #CoverageMatters, and #Healthy Living campaigns. This would **generate new signups at low CPS of $1.8**.
+- **Identify campaign-type pairs**: Work with the Marketing Team to evaluate further campaign-type links such as Compare Health Coverage-Customer Testimonials and #CoverageMatters-Product Promotion. This is expected to **surface insights on attractive copies that increase awareness & most efficiently generate signups**.
+- **Re-evaluate offering**: Consider eliminating the Platinum plan & making improvements to the Bronze plan due to poor performance. This is expected to **lower acquisition costs, increase efficiency, and optimise marketing resource use**.
 
-- **Health Awareness:** Within Health for All campaigns, invest more in **Health Awareness marketing** (49% CTR, 3.7% Signup Rate, $0.36 Cost per Signup) and reduce spend on **Product Promotion** (0% CTR, $3.18 Cost per Signup, only 1.6% of total signups).
+# Caveats & Next Steps
 
-- **Family Coverage Plan:** This campaign category had **no clicks**, which may indicate data issues or a failure in campaign delivery—**further investigation is needed**.
+To improve analysis, we recommend the following:
+- **Address Data Quality Issues with Data Engineering Team:** Family Coverage Plan had no data on clicks. 49 (0.3%) customer signups were not linked to any campaign. Combining data from separate tables creates nulls in new dimensions.
+- **Add Dimensions to Improve Analysis with Marketing Team:** Adding campaign start & end dates allows establishing a link of campaign performance with spend over time. Adding First Touch allows linking signups to marketing channel performance. Adding customer claims helps to explore links between campaign types and claim amount with categories.
+- **Explore Dashboard for Self-Serve Insights:**
 
-- **Review Inefficient Campaigns:** Investigate campaigns with a **Cost per Signup of more than $400**, as they significantly underperform. Consider **pausing or retiring these campaigns**.
 
-- **Reduce High-Claim Cost:** Reassess targeting and messaging for **Customer Testimonial campaigns within Compare Health Coverage** to reduce the acquisition of high-claim members or adjust product offerings to better manage this segment’s cost.
+# Appendix
 
-## Caveats and Next Steps
-For improved analysis and future steps, consider the following:
 
-- **Improve data quality and availability**
-  - Include campaign start and end dates to analyze campaign performance trends over time
-  - Segment results by channel (social media, email, search) to refine channel-specific strategies
-- **Future analysis**
-  - Incorporate customer-level dimensions (plan type, state) to tailor recommendations by demographic segments
-  - Link campaign engagement data with customer claims to identify and target high-value patient segments for each plan
-- **Revisit marketing budget with team**
-  - Meet with the marketing team to explore the potential impacts of recommendations
-  - Explore for additional insights and recommendations by campaign category and type
-
-# Dashboard
 The dashboard can be found in [Tableau Public](https://public.tableau.com/app/profile/serena.z4354/viz/PrimeCareMarketingAnalysisDashboard/CampaignCategoryDashboard). This dashboard enables users to filter by Plan, State, and Campaign Type and provides insights on trends and values for marketing metrics, signup metrics, and customer claim metrics. 
 
-
-# Presentation Sample
-The presentation created for the marketing team, which walks through the insights and recommendations above, can be found [here]. For the best image quality, download the file as a PPTX from Google Slides and open it in Microsoft PowerPoint. Selected slides are presented below for easy viewing.
+The presentation created for the marketing team, which walks through the insights and recommendations above, can be found [here].

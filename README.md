@@ -77,7 +77,7 @@ $11k allocated to poor performers indicate ineffective results despite high budg
 ## Insight 2: Customer Testimonial Surge Drives Compare Health Coverage Signups
 
 <p align="center">
-<img src="pic/Compare.png" alt="Compare" width="750" >
+<img src="pic/Compare.png" alt="Compare" width="700" >
 </p>
 </details>
 
